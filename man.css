@@ -1,0 +1,75 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #E2D4A4;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #aaa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+body{
+    background-color: #E2D4A4;
+}
+#logo img{
+    float: left;
+    overflow: hidden;
+    height:10%;
+    width:10%;
+}
+.bluemoon{
+    display: inline-block;
+    float: center;
+    /*background-color: #9bf442;*/
+    height:200px;
+    width:400px;
+    position:relative;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+.bluemoon h2{
+    text-decoration: none;
+}
+.bluemoon img{
+    height:100%;
+    width:100%;
+}
+.secnav a {
+    float: middle;
+    color: #aaa;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: black;
+    color:white;
+}
+
+/* Change the color of links on hover */
+.secnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.secnav a.active {
+    background-color: black;
+    color: white;
+}
